@@ -33,9 +33,6 @@ const mapStateToProps = state => {
   return { songs: state.songs };
 };
 
-// const mapDispatchToProps = (props) => {
-// }
-
 export default connect(
   mapStateToProps,
   { selectSong: selectSong }
